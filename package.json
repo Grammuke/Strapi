@@ -1,0 +1,32 @@
+{
+  "name": "my-project",
+  "private": true,
+  "version": "0.1.0",
+  "description": "A Strapi application",
+  "scripts": {
+    "develop": "strapi develop",
+    "start": "strapi start",
+    "build": "strapi build",
+    "strapi": "strapi"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "@strapi/plugin-i18n": "4.0.0",
+    "@strapi/plugin-users-permissions": "4.0.0",
+    "@strapi/strapi": "4.0.0",
+    "mailchimp-api-v3": "^1.15.0",
+    "sqlite3": "5.0.2",
+    "strapi-plugin-mailchimp": "0.0.0"
+  },
+  "author": {
+    "name": "A Strapi developer"
+  },
+  "strapi": {
+    "uuid": "e9c21c7c-7cca-41e6-b19a-b65b6c27fba3"
+  },
+  "engines": {
+    "node": ">=12.x.x <=16.x.x",
+    "npm": ">=6.0.0"
+  },
+  "license": "MIT"
+}

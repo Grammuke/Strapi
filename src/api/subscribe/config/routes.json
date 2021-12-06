@@ -1,0 +1,12 @@
+{
+    "routes": [
+      {
+        "method": "POST",
+        "path": "/subscribe",
+        "handler": "Subscribe.index",
+        "config": {
+          "policies": []
+        }
+      }
+    ]
+  }
